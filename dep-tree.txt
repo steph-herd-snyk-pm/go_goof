@@ -1,0 +1,133 @@
+bitbucket.sqills.com/devv/dummy @ 0.0.0
+   ├─ golang.org/x/text/language @ 0.3.5
+   │  ├─ golang.org/x/text/internal/language/compact @ 0.3.5
+   │  │  └─ golang.org/x/text/internal/language @ 0.3.5
+   │  │     └─ golang.org/x/text/internal/tag @ 0.3.5
+   │  └─ golang.org/x/text/internal/language @ 0.3.5
+   │     └─ golang.org/x/text/internal/tag @ 0.3.5
+   ├─ github.com/gin-gonic/gin @ 1.6.3
+   │  ├─ github.com/mattn/go-isatty @ 0.0.12
+   │  │  └─ golang.org/x/sys/unix @ #b77594299b42
+   │  ├─ github.com/gin-gonic/gin/render @ 1.6.3
+   │  │  ├─ gopkg.in/yaml.v2 @ 2.2.8
+   │  │  ├─ github.com/ugorji/go/codec @ 1.1.7
+   │  │  ├─ github.com/golang/protobuf/proto @ 1.3.3
+   │  │  ├─ github.com/gin-gonic/gin/internal/json @ 1.6.3
+   │  │  └─ github.com/gin-gonic/gin/internal/bytesconv @ 1.6.3
+   │  ├─ github.com/gin-gonic/gin/internal/json @ 1.6.3
+   │  ├─ github.com/gin-gonic/gin/internal/bytesconv @ 1.6.3
+   │  ├─ github.com/gin-gonic/gin/binding @ 1.6.3
+   │  │  ├─ gopkg.in/yaml.v2 @ 2.2.8
+   │  │  ├─ github.com/ugorji/go/codec @ 1.1.7
+   │  │  ├─ github.com/golang/protobuf/proto @ 1.3.3
+   │  │  ├─ github.com/go-playground/validator/v10 @ 10.2.0
+   │  │  │  ├─ github.com/leodido/go-urn @ 1.2.0
+   │  │  │  └─ github.com/go-playground/universal-translator @ 0.17.0
+   │  │  │     └─ github.com/go-playground/locales @ 0.13.0
+   │  │  │        └─ github.com/go-playground/locales/currency @ 0.13.0
+   │  │  ├─ github.com/gin-gonic/gin/internal/json @ 1.6.3
+   │  │  └─ github.com/gin-gonic/gin/internal/bytesconv @ 1.6.3
+   │  └─ github.com/gin-contrib/sse @ 0.1.0
+   ├─ github.com/cucumber/godog/colors @ 0.11.0
+   └─ github.com/cucumber/godog @ 0.11.0
+      ├─ github.com/spf13/pflag @ 1.0.5
+      ├─ github.com/cucumber/messages-go/v10 @ 10.0.3
+      │  ├─ github.com/gogo/protobuf/proto @ 1.3.1
+      │  └─ github.com/gofrs/uuid @ 3.3.0
+      ├─ github.com/cucumber/godog/internal/utils @ 0.11.0
+      ├─ github.com/cucumber/godog/internal/storage @ 0.11.0
+      │  ├─ github.com/hashicorp/go-memdb @ 1.3.0
+      │  │  └─ github.com/hashicorp/go-immutable-radix @ 1.3.0
+      │  │     └─ github.com/hashicorp/golang-lru/simplelru @ 0.5.4
+      │  ├─ github.com/cucumber/messages-go/v10 @ 10.0.3
+      │  │  ├─ github.com/gogo/protobuf/proto @ 1.3.1
+      │  │  └─ github.com/gofrs/uuid @ 3.3.0
+      │  └─ github.com/cucumber/godog/internal/models @ 0.11.0
+      │     ├─ github.com/cucumber/messages-go/v10 @ 10.0.3
+      │     │  ├─ github.com/gogo/protobuf/proto @ 1.3.1
+      │     │  └─ github.com/gofrs/uuid @ 3.3.0
+      │     ├─ github.com/cucumber/godog/internal/utils @ 0.11.0
+      │     ├─ github.com/cucumber/godog/formatters @ 0.11.0
+      │     │  └─ github.com/cucumber/messages-go/v10 @ 10.0.3
+      │     │     ├─ github.com/gogo/protobuf/proto @ 1.3.1
+      │     │     └─ github.com/gofrs/uuid @ 3.3.0
+      │     └─ github.com/cucumber/godog/colors @ 0.11.0
+      ├─ github.com/cucumber/godog/internal/parser @ 0.11.0
+      │  ├─ github.com/cucumber/messages-go/v10 @ 10.0.3
+      │  │  ├─ github.com/gogo/protobuf/proto @ 1.3.1
+      │  │  └─ github.com/gofrs/uuid @ 3.3.0
+      │  ├─ github.com/cucumber/godog/internal/tags @ 0.11.0
+      │  │  └─ github.com/cucumber/messages-go/v10 @ 10.0.3
+      │  │     ├─ github.com/gogo/protobuf/proto @ 1.3.1
+      │  │     └─ github.com/gofrs/uuid @ 3.3.0
+      │  ├─ github.com/cucumber/godog/internal/models @ 0.11.0
+      │  │  ├─ github.com/cucumber/messages-go/v10 @ 10.0.3
+      │  │  │  ├─ github.com/gogo/protobuf/proto @ 1.3.1
+      │  │  │  └─ github.com/gofrs/uuid @ 3.3.0
+      │  │  ├─ github.com/cucumber/godog/internal/utils @ 0.11.0
+      │  │  ├─ github.com/cucumber/godog/formatters @ 0.11.0
+      │  │  │  └─ github.com/cucumber/messages-go/v10 @ 10.0.3
+      │  │  │     ├─ github.com/gogo/protobuf/proto @ 1.3.1
+      │  │  │     └─ github.com/gofrs/uuid @ 3.3.0
+      │  │  └─ github.com/cucumber/godog/colors @ 0.11.0
+      │  └─ github.com/cucumber/gherkin-go/v11 @ 11.0.0
+      │     ├─ github.com/gogo/protobuf/io @ 1.3.1
+      │     │  └─ github.com/gogo/protobuf/proto @ 1.3.1
+      │     └─ github.com/cucumber/messages-go/v10 @ 10.0.3
+      │        ├─ github.com/gogo/protobuf/proto @ 1.3.1
+      │        └─ github.com/gofrs/uuid @ 3.3.0
+      ├─ github.com/cucumber/godog/internal/models @ 0.11.0
+      │  ├─ github.com/cucumber/messages-go/v10 @ 10.0.3
+      │  │  ├─ github.com/gogo/protobuf/proto @ 1.3.1
+      │  │  └─ github.com/gofrs/uuid @ 3.3.0
+      │  ├─ github.com/cucumber/godog/internal/utils @ 0.11.0
+      │  ├─ github.com/cucumber/godog/formatters @ 0.11.0
+      │  │  └─ github.com/cucumber/messages-go/v10 @ 10.0.3
+      │  │     ├─ github.com/gogo/protobuf/proto @ 1.3.1
+      │  │     └─ github.com/gofrs/uuid @ 3.3.0
+      │  └─ github.com/cucumber/godog/colors @ 0.11.0
+      ├─ github.com/cucumber/godog/internal/formatters @ 0.11.0
+      │  ├─ github.com/cucumber/messages-go/v10 @ 10.0.3
+      │  │  ├─ github.com/gogo/protobuf/proto @ 1.3.1
+      │  │  └─ github.com/gofrs/uuid @ 3.3.0
+      │  ├─ github.com/cucumber/godog/internal/utils @ 0.11.0
+      │  ├─ github.com/cucumber/godog/internal/storage @ 0.11.0
+      │  │  ├─ github.com/hashicorp/go-memdb @ 1.3.0
+      │  │  │  └─ github.com/hashicorp/go-immutable-radix @ 1.3.0
+      │  │  │     └─ github.com/hashicorp/golang-lru/simplelru @ 0.5.4
+      │  │  ├─ github.com/cucumber/messages-go/v10 @ 10.0.3
+      │  │  │  ├─ github.com/gogo/protobuf/proto @ 1.3.1
+      │  │  │  └─ github.com/gofrs/uuid @ 3.3.0
+      │  │  └─ github.com/cucumber/godog/internal/models @ 0.11.0
+      │  │     ├─ github.com/cucumber/messages-go/v10 @ 10.0.3
+      │  │     │  ├─ github.com/gogo/protobuf/proto @ 1.3.1
+      │  │     │  └─ github.com/gofrs/uuid @ 3.3.0
+      │  │     ├─ github.com/cucumber/godog/internal/utils @ 0.11.0
+      │  │     ├─ github.com/cucumber/godog/formatters @ 0.11.0
+      │  │     │  └─ github.com/cucumber/messages-go/v10 @ 10.0.3
+      │  │     │     ├─ github.com/gogo/protobuf/proto @ 1.3.1
+      │  │     │     └─ github.com/gofrs/uuid @ 3.3.0
+      │  │     └─ github.com/cucumber/godog/colors @ 0.11.0
+      │  ├─ github.com/cucumber/godog/internal/models @ 0.11.0
+      │  │  ├─ github.com/cucumber/messages-go/v10 @ 10.0.3
+      │  │  │  ├─ github.com/gogo/protobuf/proto @ 1.3.1
+      │  │  │  └─ github.com/gofrs/uuid @ 3.3.0
+      │  │  ├─ github.com/cucumber/godog/internal/utils @ 0.11.0
+      │  │  ├─ github.com/cucumber/godog/formatters @ 0.11.0
+      │  │  │  └─ github.com/cucumber/messages-go/v10 @ 10.0.3
+      │  │  │     ├─ github.com/gogo/protobuf/proto @ 1.3.1
+      │  │  │     └─ github.com/gofrs/uuid @ 3.3.0
+      │  │  └─ github.com/cucumber/godog/colors @ 0.11.0
+      │  ├─ github.com/cucumber/godog/formatters @ 0.11.0
+      │  │  └─ github.com/cucumber/messages-go/v10 @ 10.0.3
+      │  │     ├─ github.com/gogo/protobuf/proto @ 1.3.1
+      │  │     └─ github.com/gofrs/uuid @ 3.3.0
+      │  └─ github.com/cucumber/godog/colors @ 0.11.0
+      ├─ github.com/cucumber/godog/internal/flags @ 0.11.0
+      │  └─ github.com/spf13/pflag @ 1.0.5
+      ├─ github.com/cucumber/godog/internal/builder @ 0.11.0
+      ├─ github.com/cucumber/godog/formatters @ 0.11.0
+      │  └─ github.com/cucumber/messages-go/v10 @ 10.0.3
+      │     ├─ github.com/gogo/protobuf/proto @ 1.3.1
+      │     └─ github.com/gofrs/uuid @ 3.3.0
+      └─ github.com/cucumber/godog/colors @ 0.11.0
